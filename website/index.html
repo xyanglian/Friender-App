@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--<script  src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+
+<!--	<title>Spot</title>-->
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" data-spy="affix" ><!--data-offset="200"-->
+		<div class="container-fluid">
+<!--
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+-->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="navbar-nav"><a href="#Home">Home</a></li>
+					<li class="navbar-nav"><a href="#About">About</a></li>
+					<li class="navbar-nav"><a href="#Updates">Updates</a></li>
+					<li class="navbar-nav"><a href="#ToDo">To Do</a></li>
+				</ul>
+
+
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+</header>
+<div class="content container" id="Home">
+	<div id="overlay">  
+		<div class="row">
+			<div class="col-xs-12">
+<!--
+				<div id="headertext">
+					Spot<br>
+				</div>
+-->
+				<div id="introtext">
+					The ultimate location based app to find epic individuals<br><br>    
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper primary" id="About">
+	<div class="content container">
+		<div class="row">
+			<div class="col-xs-12">
+			<h1 class="text-center"><b>Friender</b></h1><br>
+			<p>Frinder is an app that allows users to find other individuals on a map with different statuses:</p>
+			<ul>
+				<li>Letting users with accounts to input their current status along with pictures.</li>
+				<li>Allow all app users to browse other users at different locations base with different status.</li>
+				<li>Users can then choose to interact with other users via the poke button.</li>
+			</ul>
+            <img src="home%20screen.png" width="700" height="1200">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper secondary" id="Updates">
+	<div class="content container">
+		<div class="row">
+			<div class="col-xs-12">
+			<h1 class="text-center"><b>Updates</b></h1>
+			<h3><b>3/31/2018</b></h3>
+			<ul> 
+				<li>Came up with idea and created index.html.</li>
+                <li>Drew how different activities and UI interface should look like.</li>
+			</ul>  
+            <h3><b>4/05/2018</b></h3>
+			<ul> 
+				<li>Created backend using go and gopkg.</li>
+                <li>Finished email authentication.</li>
+			</ul> 
+            <h3><b>4/15/2018</b></h3>
+			<ul> 
+				<li>Hosted website on github.io and updated website.</li>
+				<li>Completed Login and Signup page.</li>
+				<li>Completed the backend for both Login and Signup.</li>
+			</ul> 
+			<h3><b>4/24/2018</b></h3>
+			<ul> 
+				<li>Incorporated Google Maps API onto the app.</li>
+				<li>Incorporated errorcodes with signup and login pages.</li>
+				<li>Asks users to sync location and contacts.</li>
+			</ul>
+			<h3><b>4/27/2018</b></h3>
+			<ul> 
+				<li>Allow users to add status.</li>
+				<li>Link proejct to firebase to allow for storing pictures and audio.</li>
+			</ul>
+			</ul>
+			<h3><b>4/28/2018</b></h3>
+			<ul> 
+				<li>Users can view statuses of other users.</li>
+				<li>Incorporated different users to be viewed on map.</li>
+			</ul>
+			<h3><b>4/29/2018</b></h3>
+			<ul> 
+				<li>Allowed users to receive notifications with app on the background.</li>
+			</ul>
+            <h3><b>4/30/2018</b></h3>
+			<ul> 
+				<li>Allowed users to receive a popup window with app running on the foreground.</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper primary" id="ToDo">
+	<div class="content container">
+		<div class="row">
+			<div class="col-xs-12">
+			<h1 class="text-center"><b>Pending Features</b></h1><br>
+			<ul>
+                <li>Create an instant chat service.</li>
+                <li>Incorporate Phone numbers into the app.</li>
+			</ul>	
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="content container footer">
+		<div class="row">
+			<div class="col-xs-12">
+			<p class="text-center">Created by David Zheng (dhz), Wilson Zhang (bz43), Liane Yanglian (xy48) and Henry Yu (ay64) for Spring 2018 CS 290 Final Project.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

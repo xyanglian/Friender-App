@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.duke.compsci290.friender.LoginActivity">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Status"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="23sp"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:text="Username" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/current_status"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:text="Current Status" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/status_created_at"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Status Created At" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/status_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Status Image" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="252dp"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/status_voice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Status Voice" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageButton
+                android:id="@+id/play_voice"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/poke_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POKE" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <!-- return Button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/return_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="4dp"
+                android:padding="12dp"
+                android:text="Return Back to Map" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
